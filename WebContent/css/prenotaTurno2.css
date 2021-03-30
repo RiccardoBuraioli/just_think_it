@@ -1,0 +1,127 @@
+body{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+	background: linear-gradinent(#E0EAFC,#CFDEF3);
+	height:100vh;
+}
+
+.center,.content{
+	position:absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+
+
+.content{
+	width:500px;
+	height:350px;
+	background:white;
+	border-radius: 3px;
+	box-shadow:0 2px 12px 0 rgba(0,0,0,.4);
+}
+
+.header{
+	height: 60px;
+	background: red;
+	overflow: hidden;
+	border-radius: 3px 3px 0 0;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+}
+
+.header h2{
+	color:white;
+	padding-left:30%;
+}
+
+ .h4{
+	position:absolute;
+	color:black;
+}
+
+h4{
+	position:absolute;
+	top:11%;
+	font-size:18px;
+	color: #1a1a1a;
+	text-align:center;
+}
+
+h6{
+	position:absolute;
+	top:23%;
+	left:14%;
+	font-size:12px;
+	color: black;
+	text-align:center;	
+}
+
+.turno{
+	font-size:18px;
+}
+.orari{
+	font-size:18px;
+}
+.cv{
+	font-size:18px;
+}
+.opzioni{
+	position:absolute;
+	top:38%;
+	left:8%;
+}
+
+.text{
+	position:absolute;
+	top:38%;
+	left:60%;
+}
+
+button[type="submit"]
+{
+	position:absolute;
+	bottom:10px;
+	right:25px;
+	border: 1px solid red;
+	outline:none;
+	height: 40px;
+	background: red;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	padding: 8px 10px;
+	cursor:pointer;	
+}
+
+ button[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+textarea{
+	overflow:scroll;
+	height:80px;
+	width:170px;
+
+}
+.ind a{
+	position:absolute;
+	font-size:12px;
+	top:90%;
+	left:8%;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #ffc107;
+}
+
+.fineOrari{
+	position:absolute;
+	top:60%;
+	left:30%;
+}

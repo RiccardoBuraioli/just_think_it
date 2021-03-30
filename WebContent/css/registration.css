@@ -1,0 +1,131 @@
+@charset "ISO-8859-1";
+.Title {
+  position:absolute;
+  font-size: 35px;
+  left: 22%;
+  color:rgb(0, 0, 0);
+  text-align:center;text-decoration: none;
+	color:rgb(0, 0, 0);
+	font-size: 80px;
+	font-family: comics soon;
+	padding: 20px 0;
+	float: left;
+}
+
+
+
+.reg{
+	position: absolute;
+	top:15%;
+	left:35%;
+	font-size:35px;
+	color:rgb(0, 0, 0);
+}
+
+
+.Volontario button[type="submit"]
+{
+	position:absolute;
+	border: none;
+	outline:none;
+	height: 40px;
+	width:250px;
+	background: red;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;	
+	top: 77%;
+	left:5%;
+}
+.Volontario button[type="submit"]:hover
+{
+	cursor: pointer;
+	background: yellow;
+	color: #000;
+}
+
+.vol{
+	position: absolute;
+	top:30%;
+	left:8%;
+	font-size: 28px;
+	color: black;
+}
+
+
+.car{
+	position:absolute;
+	top:30%;
+	left:48%;
+	font-size:28px;
+}
+
+.Caritas button[type="submit"]
+{
+	position:absolute;
+	border: none;
+	outline:none;
+	height: 40px;
+	width:250px;
+	background: red;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;	
+	top : 77%;
+	left:42%;
+}
+.Caritas button[type="submit"]:hover
+{
+	cursor: pointer;
+	background: yellow;
+	color: #000;
+}
+
+.Negozio button[type="submit"]
+{
+	position:absolute;
+	border: none;
+	outline:none;
+	height: 40px;
+	width:250px;
+	background: red;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	top: 77%;
+	left:75%;	
+	
+}
+.Negozio button[type="submit"]:hover
+{
+	cursor: pointer;
+	background: yellow;
+	color: #000;
+}
+
+
+
+.neg{
+	position: absolute;
+	top:30%;
+	left:80%;
+	font-size: 28px;
+	color:rgb(0, 0, 0);
+}
+
+
+.ind a
+{
+	position:absolute;
+	font-size:18px;
+	text-decoration:none;
+	line-height:20px;
+	color: rgb(0,0,128);
+	top:87%;
+	left:47.5%;
+}
+
+.ind a:hover
+{
+	color: yellow;
+}

@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+body{
+/*background-image:URL("../img/mani.jpg");
+background-size:cover;*/
+}
+
+
+h1{
+	text-align:center;
+	font-size:45px;
+}
+
+.crea  button[type="submit"]
+{
+	position:absolute;
+	top:85%;
+	left:75%;
+	border-color:white;
+	outline:none;
+	height: 50px;
+	width:250px;
+	background: red;
+	color: #fff;
+	border-radius: 10px;
+	font-weight:bold;
+	font-size:25px;
+	cursor:pointer;	
+}
+
+.crea button[type="submit"]:hover
+{
+	cursor: pointer;
+	background:yellow;
+	color: #000;
+}
+
+.ind button[type="submit"]{
+	position:absolute;
+	font-size:20px;
+	border-color:black;
+	height:40px;
+	width:150px;
+	background:white;
+	text-decoration:none;
+	line-height:20px;
+	color:rgb(0,0,128);
+	top:90%;
+	left:5%;
+}
+
+.ind button[type="submit"]:hover
+{
+		color:red;	
+}
+.pt1{
+	position: absolute;
+	top:20%;
+	left:10%;
+}
+
+.giorni h3{
+	font-size:30px;
+}
+
+.giorni select{
+	height:48px;
+	width:250px;
+}
+
+input{
+	height:40px;
+	width:250px;
+}
+
+h3{
+	font-size:30px;
+}
+
+
+.pt2{
+	position:absolute;
+	top:20%;
+	left: 40%;
+}
+
+.note{
+	position:absolute;
+	top:20%;
+	left:75%;
+}
+
+textarea{
+	height:250px;
+	width:200px;
+}

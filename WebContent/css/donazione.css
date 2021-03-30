@@ -1,0 +1,107 @@
+@charset "ISO-8859-1";
+h2{
+  position:absolute;
+  font-size: 35px;
+  left: 39%;
+  color:rgb(0, 0, 0);
+  text-align:center;
+  top:0%;
+}
+h4{
+	position: absolute;
+	left:7%;
+	top:5%;
+	font-size:40px;
+	text-align:center;
+}
+.titolo{
+	position:absolute;
+	font-size: 35px;
+	left:13%;
+}
+
+input [type="checkbox"]{
+	height:30px;
+	width:30px;
+}
+
+input{
+	height:40px;
+	width:250px;
+}
+
+.don{
+  position:absolute;
+  font-size: 20px;
+  top:24%;
+  left: 15%;
+  color:#000;
+  text-align:center;
+}
+
+textarea{
+	height:230px;
+	width:400px;
+	
+	overflow:scroll;
+}
+
+.descr{
+	position:absolute;
+	top: 24%;
+	left:50%;
+	 font-size: 20px;
+}
+
+.ind{
+	position:absolute;
+	 font-size: 20px;
+	 top: 53%;
+	left:15%;
+}
+
+.conferma button[type="submit"]
+{
+	position:absolute;
+	border: none;
+	outline:none;
+	height: 40px;
+	width:150px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	top:85%;
+	left: 80%;
+	
+}
+.conferma button[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+a{
+	position:absolute;
+	font-size:18px;
+	text-decoration:none;
+	line-height:20px;
+	color: rgb(0,0,128);
+	top:85%;
+	left:5%;
+}
+
+a:hover{
+	color:#ffc107;
+}
+
+.don{
+	position:absolute;
+	left: 8%;
+	top:50%;
+}
+
+h3{
+	font-size:10px;
+}

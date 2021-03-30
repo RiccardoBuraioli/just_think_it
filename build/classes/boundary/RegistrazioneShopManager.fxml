@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bean.RegistrationShopBoundary">
+   <children>
+      <TextField fx:id="cittaResNeg" layoutX="35.0" layoutY="136.0" prefHeight="26.0" prefWidth="230.0" promptText="Roma" />
+    
+      <TextField fx:id="viaNeg" layoutX="35.0" layoutY="242.0" promptText="luigi settembrini" />
+      <TextField fx:id="civicoNeg" layoutX="198.0" layoutY="242.0" prefHeight="25.0" prefWidth="67.0" promptText="54" />
+      <TextField fx:id="telNeg" layoutX="59.0" layoutY="346.0" prefHeight="26.0" prefWidth="207.0" promptText="656589645" />
+      <Text layoutX="36.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Provincia" />
+      <Text layoutX="36.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Via" />
+      <Text layoutX="198.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N°" />
+      <Text layoutX="34.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+39" />
+      <Text layoutX="37.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefono" />
+      <TextField fx:id="nomeNegzio" layoutX="36.0" layoutY="82.0" prefHeight="26.0" prefWidth="230.0" promptText="es. Mario" />
+      <TextField fx:id="mailNeg" layoutX="35.0" layoutY="290.0" prefHeight="26.0" prefWidth="230.0" promptText="es. mariorossi@gmail.com" />
+      <Text layoutX="36.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome del Negozio" />
+      <Text layoutX="36.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+      <Text layoutX="332.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Text layoutX="333.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conferma Password" />
+      <Text layoutX="38.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Città di Residenza" />
+      <Text layoutX="35.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tipologia:" />
+      <CheckBox fx:id="typeCiboNeg" layoutX="116.0" layoutY="387.0" mnemonicParsing="false" text="Cibo" />
+      <CheckBox fx:id="typeVestNeg" layoutX="191.0" layoutY="387.0" mnemonicParsing="false" text="Vestiario" />
+      <TextField fx:id="nomeNeg" layoutX="331.0" layoutY="123.0" prefHeight="26.0" prefWidth="230.0" promptText="es. Mario" />
+      <TextField fx:id="cognomeNeg" layoutX="331.0" layoutY="172.0" prefHeight="26.0" prefWidth="230.0" promptText="es. rossi" />
+      <Text layoutX="331.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
+      <Text layoutX="331.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cognome" />
+      <Button fx:id="registraNegozio" layoutX="333.0" layoutY="376.0" mnemonicParsing="false" onAction="#registraNegozioPressed" prefHeight="37.0" prefWidth="230.0" text="Completa la registrazione" />
+      <TextField fx:id="codiceFiscNeg" layoutX="333.0" layoutY="228.0" prefHeight="26.0" prefWidth="230.0" promptText="OE......" />
+      <Text layoutX="331.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Codice Fiscale" />
+      <Text layoutX="396.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Responsabile">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Separator layoutX="294.0" layoutY="62.0" orientation="VERTICAL" prefHeight="354.0" prefWidth="14.0" />
+      <ToolBar layoutX="1.0" prefHeight="38.0" prefWidth="600.0">
+         <items>
+            <Button fx:id="backButtonNeg" mnemonicParsing="false" onAction="#backButtonNegPressed" text="Indietro" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Registrazione come Negozio" translateX="107.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </items>
+      </ToolBar>
+      <PasswordField fx:id="passwordNeg" layoutX="331.0" layoutY="278.0" prefHeight="26.0" prefWidth="230.0" />
+      <PasswordField fx:id="confermaPassNeg" layoutX="333.0" layoutY="329.0" prefHeight="26.0" prefWidth="230.0" />
+  	 <Text fx:id="passwordMatch" fill="RED" layoutX="350.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le password non corrispondono!" visible="false" wrappingWidth="181.336669921875" />
+   </children>
+</AnchorPane>

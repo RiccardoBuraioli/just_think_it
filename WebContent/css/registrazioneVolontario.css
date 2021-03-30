@@ -1,0 +1,103 @@
+@charset "ISO-8859-1";
+body{
+background-image:URL("../img/colori.jpg");
+background-size:cover;
+}
+
+a{
+	position: absolute;
+	font-size:18px;
+	text-decoration: none;
+	line-height: 20px;
+	color: rgb(0, 0, 128);
+	top:85%;
+	left:5%;
+}
+
+a:hover
+{
+	color: #ffc107;
+}
+
+.titolo{
+  position:absolute;
+  font-size: 30px;
+  top:1%;
+  left: 35%;
+  color:#000;
+  text-align:center;
+}
+
+
+.box button[type="submit"]
+{
+	position:absolute;
+	border:none;
+	outline:none;
+	height:40px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+	left:70%;
+	top:85%;
+}
+
+.box button [type="submit"]:hover{
+	cursor:pointer;
+	background: #ffc107;
+	color: #000;	
+}
+
+input{
+	height:30px;
+	width:250px;
+}
+
+.Volontario{
+  position:absolute;
+  font-size: 20px;
+  top:19%;
+  left: 10%;
+  color:#000;
+  text-align:center;
+}
+
+.residenza{
+  position:absolute;
+  font-size: 20px;
+  top:19%;
+  left: 30%;
+  color:#000;
+  text-align:center;
+}
+.pass{
+  position:absolute;
+  font-size: 20px;
+  top:19%;
+  left: 70%;
+  color:#000;
+  text-align:center
+}
+
+.fine{
+  position:absolute;
+  font-size: 20px;
+  top:19%;
+  left: 50%;
+  color:#000;
+  text-align:center;
+}
+
+.via input{
+	height:30px;
+	width:240px;
+}
+
+.n input{
+	position: absolute;
+	height:30px;
+	width:30px;
+	top:89.2%;
+	left:85%;
+}

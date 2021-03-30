@@ -1,0 +1,97 @@
+@charset "ISO-8859-1";
+.logo{
+  position:absolute;
+  font-size: 35px;
+  left: 40%;
+  color:rgb(0, 0, 0);
+  text-align:center;
+  top:0%;
+}
+
+.title{
+	position:absolute;
+	font-size: 20px;
+	left: 15%;
+	color: black;
+	text-align:center;
+	top:3%;
+	font-size:40px;
+	}
+
+.descr{
+	position:absolute;
+	left:30%;
+	top:23%;
+}
+
+.body{
+	position: absolute;
+	top:35%;
+	left:13%;
+}
+.text{
+	position:absolute;
+	top:35%;
+	left:57%;
+}
+select{
+	height:40px;
+	width:240px;
+	}
+	
+textarea{
+	height:200px;
+	width:400px;
+	overflow:scroll;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.turno{
+	font-size: 25px;	
+}
+
+.orari{
+	font-size: 25px;	
+}
+
+.cv{
+	font-size: 25px;	
+}
+
+.prenota button[type="submit"]
+{
+	position:absolute;
+	border: none;
+	outline:none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	top:85%;
+	left:80%;
+	
+}
+.prenota button[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+
+a{
+	position:absolute;
+	top:85%;
+	left:5%;
+	text-decoration:none;
+	font-size:18px;
+	line-height: 20px;
+	color: rgb(0,0,128);
+	
+}
+
+a:hover{
+	color: #ffc107;
+}
+

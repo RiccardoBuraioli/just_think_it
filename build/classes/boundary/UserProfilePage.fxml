@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bean.ProfileBoundary">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <Label layoutX="343.0" layoutY="14.0" text="JUST THINK IT">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="profileImageEdit" fitHeight="200.0" fitWidth="200.0" layoutX="299.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Admin/Desktop/JUST-THINK-IT.git/trunk/resources/images/defalutUserProfile.png" />
+               </image></ImageView>
+            <Separator layoutX="-1.0" layoutY="40.0" prefHeight="14.0" prefWidth="800.0" />
+            <Button fx:id="backHomeButton" layoutX="69.0" layoutY="543.0" mnemonicParsing="false" onAction="#backHomeButtonPressed" prefHeight="26.0" prefWidth="113.0" text="Torna alla home" AnchorPane.bottomAnchor="30.600000000000023" AnchorPane.leftAnchor="69.0" />
+            <Button fx:id="editButton" layoutX="607.0" layoutY="543.0" mnemonicParsing="false" onAction="#editButtonPressed" prefHeight="26.0" prefWidth="114.0" text="Modifica il profilo" AnchorPane.bottomAnchor="30.600000000000023" AnchorPane.rightAnchor="78.60000000000002" />
+            <ImageView fx:id="donazioniImage" fitHeight="150.0" fitWidth="200.0" layoutX="55.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Admin/Desktop/JUST-THINK-IT.git/trunk/resources/images/heart.png" />
+               </image></ImageView>
+            <ImageView fx:id="eventiImage" fitHeight="150.0" fitWidth="200.0" layoutX="590.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Admin/Desktop/JUST-THINK-IT.git/trunk/resources/images/event-date-and-time-symbol.png" />
+               </image></ImageView>
+            <Text fx:id="nomeCognomeEdit" layoutX="296.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="200.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <HBox layoutX="278.0" layoutY="395.0" prefHeight="64.0" prefWidth="243.0">
+               <children>
+                  <VBox prefHeight="150.0" prefWidth="129.0">
+                     <children>
+                        <Label text="Email">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Città">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Telefono">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="130.0">
+                     <children>
+                        <Text fx:id="emailEdit" strokeType="OUTSIDE" strokeWidth="0.0" text="example@domani.com">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="cittaEdit" strokeType="OUTSIDE" strokeWidth="0.0" text="Roma">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="telefonoEdit" strokeType="OUTSIDE" strokeWidth="0.0" text="1234567890">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Button defaultButton="true" layoutX="55.0" layoutY="470.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="142.0" style="-fx-background-color: transparent;" text="Donazioni passate" underline="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button defaultButton="true" layoutX="569.0" layoutY="469.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="192.0" style="-fx-background-color: transparent;" text="Eventi a cui ho partecipato" underline="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

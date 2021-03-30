@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+	background: linear-gradinent(#E0EAFC,#CFDEF3);
+	height:100vh;
+	
+}
+.header{
+	height: 60px;
+	background: red;
+	overflow: hidden;
+	border-radius: 3px 3px 0 0;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);	
+}
+
+.header h2{
+	position:absolute;
+	left:580px;
+	text-align:center;
+	color:white;
+}
+
+.ind a{
+	position:absolute;
+	font-size:25px;
+	font-weight:bold;
+	top:87%;
+	left:5%;
+	color:blue;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color:rgb(6, 255, 0);
+}
+
+h4{
+	position:absolute;
+	top:7%;
+	font-size:35px;
+	left:320px;
+}
+ button[type="submit"]
+{
+	position:absolute;
+	top:83%;
+	left:73%;
+	border-color:white;
+	outline:none;
+	height: 65px;
+	width:250px;
+	background: red;
+	color: #fff;
+	border-radius: 10px;
+	font-weight:bold;
+	font-size:25px;
+	cursor:pointer;	
+}
+button[type="submit"]:hover
+{
+	cursor: pointer;
+	background:yellow;
+	color: #000;
+}
+
+
+.pt1 input{
+	position:absolute;	
+	height:40px;
+	width:250px;
+	top:28%;
+	left:10%;
+	font-size: 18px;
+}
+
+.pt2 input{	
+	position:absolute;
+	height:40px;
+	width:250px;
+	top:28%;
+	left:40%;
+	font-size: 18px;
+}
+
+.pt3 input{	
+	position:absolute;
+	height:40px;
+	width:250px;
+	top:28%;
+	left:70%;
+	font-size:18px;
+}
+
+.pt4 textarea{	
+	position:absolute;
+	height:250px;
+	width:1075px;
+	top:38%;
+	left:10%;
+	font-size: 18px;
+}

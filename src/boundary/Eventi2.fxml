@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="835.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bean.GestisciEventiBoundary">
+   <children>
+      <Text layoutX="14.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I Tuoi Eventi" wrappingWidth="378.640625">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+     
+   <TableView fx:id="table" layoutX="30.0" layoutY="71.0" onMouseClicked="#prendiEvento" prefHeight="347.0" prefWidth="640.0">
+        <columns>
+          <TableColumn fx:id="nomeEvento" prefWidth="133.0" text="Evento" />
+          <TableColumn fx:id="nomeCaritas" prefWidth="115.0" text="Caritas" />
+            <TableColumn fx:id="noteEvento" prefWidth="203.0" text="NoteEvento" />
+            <TableColumn fx:id="numPartecipanti" prefWidth="79.0" text="Partecipanti" />
+            <TableColumn fx:id="importo" prefWidth="109.0" text="Importo" />
+        </columns>
+      </TableView>
+      
+ 
+      <Button fx:id="caritas" layoutX="683.0" layoutY="282.0" mnemonicParsing="false" onAction="#contattaCaritas" prefHeight="37.0" prefWidth="103.0" text="Contatta Caritas" />
+      <Button fx:id="modificaE" layoutX="683.0" layoutY="104.0" mnemonicParsing="false" onAction="#modificaEvento" prefHeight="37.0" prefWidth="103.0" text="Modifica Evento" />
+      <Button fx:id="eliminaE" layoutX="683.0" layoutY="192.0" mnemonicParsing="false" onAction="#eliminaEvento" prefHeight="37.0" prefWidth="103.0" text="Elimina Evento" />
+      <Button fx:id="back" layoutX="39.0" layoutY="441.0" mnemonicParsing="false" onAction="#backButtonPressed" prefHeight="37.0" prefWidth="72.0" text="Indietro" />
+   </children>
+</AnchorPane>

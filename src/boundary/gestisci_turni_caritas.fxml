@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="541.0" prefWidth="878.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bean.GestisciTurniBoundary">
+   <children>
+      <TableView fx:id="tab" layoutX="41.0" layoutY="86.0" onMouseClicked="#turnSelected" prefHeight="341.0" prefWidth="583.0">
+        <columns>
+          <TableColumn fx:id="giorno" prefWidth="103.0" text="Giorno" />
+          <TableColumn fx:id="orario" prefWidth="119.0" text="Orario" />
+            <TableColumn fx:id="numParte" prefWidth="107.0" text="Partecipanti" />
+            <TableColumn fx:id="note" prefWidth="253.0" text="note" />
+        </columns>
+      </TableView>
+      <Button fx:id="cancTurn" layoutX="701.0" layoutY="366.0" mnemonicParsing="false" onAction="#cancellaTurno" prefHeight="35.0" prefWidth="104.0" text="Cancella Turno" />
+      <Button fx:id="modTurn" layoutX="701.0" layoutY="86.0" mnemonicParsing="false" onAction="#modificaTurno" prefHeight="35.0" prefWidth="104.0" text="Modifica note" />
+      <Button fx:id="creaTurn" layoutX="701.0" layoutY="463.0" mnemonicParsing="false" onAction="#creaTurno" prefHeight="35.0" prefWidth="104.0" text="Crea Turno" />
+      <Button fx:id="back" layoutX="58.0" layoutY="463.0" mnemonicParsing="false" onAction="#backPressed" prefHeight="35.0" prefWidth="104.0" text="Back" />
+      <Text layoutX="49.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestisci i tuoi turni">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="newNote" layoutX="653.0" layoutY="131.0" prefHeight="200.0" prefWidth="200.0" promptText="es. se portate il pane è meglio" />
+   </children>
+</AnchorPane>

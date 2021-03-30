@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bean.RegistrazioneVolontarioBoundary">
+   <children>
+      <TextField fx:id="cittaRes" layoutX="326.0" layoutY="68.0" prefHeight="26.0" prefWidth="230.0" promptText="Roma" />
+    
+      <TextField fx:id="via" layoutX="35.0" layoutY="242.0" promptText="luigi settembrini" />
+      <TextField fx:id="civico" layoutX="198.0" layoutY="242.0" prefHeight="25.0" prefWidth="67.0" promptText="54" />
+      <TextField fx:id="tel" layoutX="59.0" layoutY="346.0" prefHeight="26.0" prefWidth="207.0" promptText="656589645" />
+      <Text layoutX="36.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Via" />
+      <Text layoutX="198.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N°" />
+      <Text layoutX="34.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+39" />
+      <Text layoutX="37.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefono" />
+      <TextField fx:id="mail" layoutX="35.0" layoutY="290.0" prefHeight="26.0" prefWidth="230.0" promptText="es. mariorossi@gmail.com" />
+      <Text layoutX="36.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+      <Text layoutX="326.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Text layoutX="327.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conferma Password" />
+      <Text layoutX="329.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Città di Residenza" />
+      <TextField fx:id="nome" layoutX="34.0" layoutY="83.0" prefHeight="26.0" prefWidth="230.0" promptText="es. Mario" />
+      <TextField fx:id="cognome" layoutX="34.0" layoutY="132.0" prefHeight="26.0" prefWidth="230.0" promptText="es. rossi" />
+      <Text layoutX="34.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
+      <Text layoutX="34.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cognome" />
+      <Button fx:id="completaReg" layoutX="327.0" layoutY="338.0" mnemonicParsing="false" onAction="#registraVolontarioPressed" prefHeight="38.0" prefWidth="230.0" text="Completa la registrazione" />
+      <TextField fx:id="codiceFisc" layoutX="36.0" layoutY="188.0" prefHeight="26.0" prefWidth="230.0" promptText="OE......" />
+      <Text layoutX="34.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Codice Fiscale" />
+      <Separator layoutX="294.0" layoutY="62.0" orientation="VERTICAL" prefHeight="354.0" prefWidth="14.0" />
+      <ToolBar layoutX="1.0" prefHeight="38.0" prefWidth="600.0">
+         <items>
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#backButtonPres" text="Indietro" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Registrazione come Volontario" translateX="107.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </items>
+      </ToolBar>
+      <PasswordField fx:id="password" layoutX="325.0" layoutY="130.0" prefHeight="26.0" prefWidth="230.0" />
+      <PasswordField fx:id="confermaPass" layoutX="327.0" layoutY="181.0" prefHeight="26.0" prefWidth="230.0" />
+  	 <Text fx:id="passwordMatch" fill="RED" layoutX="350.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le password non corrispondono!" visible="false" wrappingWidth="181.336669921875" />
+      <TextField fx:id="date" layoutX="325.0" layoutY="238.0" prefHeight="26.0" prefWidth="230.0" promptText="es. 05/05/95" />
+      <Text layoutX="327.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data di Nascita" />
+   </children>
+</AnchorPane>

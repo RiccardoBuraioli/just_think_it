@@ -1,0 +1,324 @@
+h1{
+  position:absolute;
+  font-size: 60px;
+  left: 60%;
+  top:3%;
+
+  color:black;
+  text-align:center;
+}
+
+h2{
+	position:absolute;
+	font-size:35px;
+	left:65%;
+	top:18%;
+	color:black;
+}
+
+.cerca button[type="submit"]
+{	
+position:absolute;
+	border: none;
+	outline:none;
+	height: 250px;
+	width:350px;
+	background: red;
+	color: #fff;
+	font-size: 25px;
+	border-radius: 20px;
+	top: 43%;
+	left:63%;
+	
+}
+
+.cerca button[type="submit"]:hover{
+	cursor:pointer;
+	background: yellow;
+	color:black;
+}
+
+
+.profilo button[type="submit"]
+{
+	position:absolute;
+	border: none;
+	outline:none;
+	height: 40px;
+	width:200px;
+	background: red;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	top:50%;
+	left:5%;
+	
+}
+.profilo button[type="submit"]:hover
+{
+	cursor: pointer;
+	background:yellow;
+	color: #000;
+}
+
+.help button[type="submit"]
+{
+	position:absolute;
+	border: none;
+	outline:none;
+	height: 40px;
+	width:200px;
+	background: red;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	top: 60%;
+	left:5%;
+	
+}
+.help button[type="submit"]:hover
+{
+	cursor: pointer;
+	background:yellow;
+	color: #000;
+}
+
+
+
+
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px 50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.box button[type="submit"] {
+  	position:absolute;
+	font-size:20px;
+	border-color:blue;
+	height:40px;
+	width:200px;
+	background:white;
+	text-decoration:none;
+	line-height:20px;
+	color:rgb(0,0,128);
+	top:87%;
+	left:5%;
+	cursor:pointer;
+ 	
+}
+.box button:hover{
+  color: red;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  position:absolute;
+  top:10%;
+  left:34%;
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+ 
+  transition: all 1s ease-in-out;
+  border:solid red;
+}
+
+.content h3 {
+ font-size:24px;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.popup .close:hover {
+  color: red;
+}
+
+.ok button[type="submit"]{
+	position:absolute;
+	border: none;
+	outline:none;
+	background: red;
+	color: #fff;
+	left:62%;
+	width:50px;
+	height:20px;
+	top:80%;
+}
+
+.ok button:hover{
+  color:yellow;
+}
+
+.content p{
+	font-size:22px;
+}
+
+.annulla button[type="submit"]{
+	position:absolute;
+	border: none;
+	outline:none;
+	background: red;
+	color: #fff;
+	left:75%;
+	width:72px;
+	height:20px;
+	top:80%;
+}
+
+.annulla button:hover{
+  color:yellow;
+}
+
+
+.box2 {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px 50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.box2 button[type="submit"]
+{
+	position:absolute;
+	border: none;
+	outline:none;
+	height: 40px;
+	width:200px;
+	background: red;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	top: 70%;
+	left:5%;
+	cursor:pointer;
+}
+
+
+.box2 button[type="submit"]:hover
+{
+	cursor: pointer;
+	background:yellow;
+	color: #000;
+}
+
+.overlay2 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay2:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup2 {
+  position:absolute;
+  top:10%;
+  left:34%;
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 40%; 
+  transition: all 1s ease-in-out;
+  border:solid red;
+}
+
+.content2 h3 {
+ font-size:24px;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup2 .close2 {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.popup2 .close2:hover {
+  color: red;
+}
+.content2 p{
+	font-size:20px;
+}
+
+.okk button[type="submit"]{
+	position:absolute;
+	border: none;
+	outline:none;
+	background: red;
+	color: #fff;
+	left:62%;
+	width:50px;
+	height:20px;
+	top:80%;
+}
+
+.okk button:hover{
+  color:yellow;
+}
+
+.annulla2 button[type="submit"]{
+	position:absolute;
+	border: none;
+	outline:none;
+	background: red;
+	color: #fff;
+	left:75%;
+	width:70px;
+	height:20px;
+	top:80%;
+}
+
+.annulla2 button:hover{
+  color:yellow;
+}

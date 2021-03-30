@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+
+ body {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+}
+.mytabs {
+	position:absolute;
+	top:18%;
+	left:7%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+	height:200px;
+    margin: 50px auto;
+  }
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    padding: 10px;
+    background: #e2e2e2;
+    font-weight: bold;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 22px;
+    background:#e2e2e2;
+    order: 1;
+    display: none;
+}
+
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: red;
+}
+
+body{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+	background: linear-gradinent(#E0EAFC,#CFDEF3);
+	height:100vh;
+}
+
+.center,.content{
+	position:absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+
+
+.content{
+	width:600px;
+	height:400px;
+	background:white;
+	border-radius: 3px;
+	box-shadow:0 2px 12px 0 rgba(0,0,0,.4);
+}
+
+.header{
+	height: 60px;
+	background: red;
+	overflow: hidden;
+	border-radius: 3px 3px 0 0;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+}
+
+.header h2{
+	color:white;
+	padding-left:34%;
+}
+
+.ind a{
+	position:absolute;
+	font-size:12px;
+	top:90%;
+	left:8%;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #ffc107;
+}
+
+h4{
+	position:absolute;
+	left:24.5%;
+	font-size:18px;
+	color:black;
+	top:47px;
+}
+
+.donazione button[type="submit"]
+{
+	position:absolute;
+	top:70%;
+	right:26px;
+	border: 1px solid red;
+	outline:none;
+	height: 40px;
+	width:140px;
+	background: red;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 10px;
+	padding: 8px 10px;
+	cursor:pointer;	
+}
+
+.donazione button[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+.contatta button[type="submit"]
+{
+	position:absolute;
+	top:50%;
+	right:25px;
+	border: 1px solid red;
+	outline:none;
+	height: 40px;
+	background: red;
+	width:140px;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 10px;
+	padding: 8px 10px;
+	cursor:pointer;	
+}
+
+.contatta button[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="669.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="14.0" layoutY="78.0" prefHeight="288.0" prefWidth="461.0">
+        <columns>
+          <TableColumn fx:id="giorno" prefWidth="75.0" text="Giorno" />
+          <TableColumn fx:id="orario" prefWidth="75.0" text="Orario" />
+            <TableColumn fx:id="partecipanti" prefWidth="92.0" text="Partecipanti" />
+            <TableColumn prefWidth="218.0" text="Note" />
+        </columns>
+      </TableView>
+      <Button fx:id="crea_t" layoutX="506.0" layoutY="109.0" mnemonicParsing="false" onAction="#crea_turno" prefHeight="37.0" prefWidth="128.0" text="Crea Turno" />
+      <Button fx:id="modifica_t" layoutX="506.0" layoutY="172.0" mnemonicParsing="false" onAction="#modifica_turno" prefHeight="37.0" prefWidth="128.0" text="Modifica Turno" />
+      <Button fx:id="elimina_t" layoutX="506.0" layoutY="234.0" mnemonicParsing="false" onAction="#elimina_turno" prefHeight="37.0" prefWidth="128.0" text="Elimina Turno" />
+      <Button fx:id="richieste" layoutX="506.0" layoutY="299.0" mnemonicParsing="false" onAction="#gestisci_richieste" prefHeight="37.0" prefWidth="128.0" text="Gestisci partecipanti" />
+      <Button fx:id="back" layoutX="20.0" layoutY="383.0" mnemonicParsing="false" onAction="#backPressed" prefHeight="37.0" prefWidth="72.0" text="Indientro" />
+      <Text layoutX="20.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestisci Turni" wrappingWidth="222.3525390625">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

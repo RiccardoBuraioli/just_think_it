@@ -1,0 +1,115 @@
+@charset "ISO-8859-1";
+body{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+	background: linear-gradinent(#E0EAFC,#CFDEF3);
+	height:100vh;
+	
+}
+.header{
+	height: 60px;
+	background: red;
+	overflow: hidden;
+	border-radius: 3px 3px 0 0;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);	
+}
+
+.header h2{
+	position:absolute;
+	left:580px;
+	text-align:center;
+	color:white;
+}
+
+.ind a{
+	position:absolute;
+	font-size:25px;
+	font-weight:bold;
+	top:87%;
+	left:5%;
+	color:blue;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color:rgb(6, 255, 0);
+}
+
+
+.EVENTI button[type="submit"]
+{
+	position:absolute;
+	top:70%;
+	border: 1px solid red;
+	outline:none;
+	height: 40px;
+	background: red;
+	width:140px;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 10px;
+	padding: 8px 10px;
+	cursor:pointer;	
+}
+
+.EVENTI button[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+
+
+.check{
+	position:absolute;
+	top:50%;
+	left:10px;
+}
+
+
+#mostra-menu{
+	position:absolute;
+	top:200px;
+	left:10px;
+}
+
+li {
+  background-color: #cee1ff;
+  padding: 8px;
+  list-style-type: none;
+  max-width: 210px;
+}
+
+  li:hover {
+    background-color: #aacbff;
+  }
+  
+#menu-a-tendina {
+    display: none;
+    margin: 0px;
+}
+
+#mostra-menu:hover #menu-a-tendina {
+  display: block;
+}
+
+
+.hidden
+	{
+	position:absolute;
+ 	left:0px;
+ 	top:-500px;
+ 	width:1px;
+ 	height:1px;
+ 	overflow:hidden;
+ 	}
+ 	
+.cordinate{
+	position:absolute;
+	top:77px;
+	left:809px;
+}
+

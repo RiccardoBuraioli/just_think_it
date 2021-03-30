@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+	background: linear-gradinent(#E0EAFC,#CFDEF3);
+	height:100vh;
+}
+
+.header{
+	height: 60px;
+	background: red;
+	overflow: hidden;
+	border-radius: 3px 3px 0 0;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+}
+
+
+.header h2{
+	position:absolute;
+	left:580px;
+	text-align:center;
+	color:white;
+}
+
+h4{
+	position:absolute;
+	top:9%;
+	font-size:30px;
+	left: 3%;
+}
+
+h6{
+	position:absolute;
+	top:15%;
+	left:23%;
+	font-size:20px;
+	color: black;
+	text-align:center;	
+}
+
+h3{
+font-size:30px;
+}
+
+.giorni{
+	position:absolute;
+	top:38%;
+	left:15%;
+}
+
+.orario{
+	position:absolute;
+	top:38%;
+	left:65%;
+}
+.text{
+	position:absolute;
+	top:57%;
+	left:39%;
+}
+
+.text input{	
+	height:40px;
+	width:250px;
+}
+
+ button[type="submit"]
+{
+	position:absolute;
+	top:85%;
+	left:75%;
+	border-color:white;
+	outline:none;
+	height: 50px;
+	width:250px;
+	background: red;
+	color: #fff;
+	border-radius: 10px;
+	font-weight:bold;
+	font-size:25px;
+	cursor:pointer;	
+}
+
+ button[type="submit"]:hover
+{
+	cursor: pointer;
+	background:yellow;
+	color: #000;
+}
+
+.ind a{
+	position:absolute;
+	font-size:25px;
+	font-weight:bold;
+	top:87%;
+	left:8%;
+	color:blue;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color:rgb(6, 255, 0);
+}
+
+select{
+	height:40px;
+	width:250px;
+}
+.orario select{
+	height:40px;
+	width:100px;
+}

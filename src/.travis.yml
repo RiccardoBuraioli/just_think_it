@@ -1,0 +1,15 @@
+language: java
+jdk:
+- openjdk11
+script: ant build
+
+
+addons:
+  sonarcloud:
+    organization: "riccardoburaioli" 
+    token: "81483b8ed77ad7807523a8157bcb8bcecc4f217b"
+
+script:
+#mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
+- ant build
+- sonar-scanner

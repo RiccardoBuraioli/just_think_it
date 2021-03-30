@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="lib" path="/JustThinkIt/logback-classic-1.2.3.jar"/>
+	<classpathentry kind="lib" path="/JustThinkIt/logback-core-1.2.3.jar"/>
+	<classpathentry kind="lib" path="/JustThinkIt/mapjfx-1.33.2.jar" sourcepath="/JustThinkIt/mapjfx-demo-1.33.2.jar"/>
+	<classpathentry kind="lib" path="/JustThinkIt/mapjfx-demo-1.33.2.jar"/>
+	<classpathentry kind="lib" path="/JustThinkIt/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.22.jar"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

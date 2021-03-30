@@ -1,0 +1,155 @@
+@charset "ISO-8859-1";
+
+
+h1{
+	position:absolute;
+	top:12%;
+	left:8%;
+	font-family: Verdana;
+	font-weight: bold;
+	text-align:left;
+	font-size:50px;
+	/*margin: 25px 0;
+	background-color: blue;
+	height:7%;
+	width:60%;*/
+	color: black;
+	/*text-shadow: -3px 0 red, 0 5px red, 3px 0 red, 0 -3px red;*/
+}
+.modifica button[type="submit"]
+{
+	position:absolute;
+	top:30%;
+	left:75%;
+	border-color:white;
+	outline:none;
+	height: 80px;
+	width:250px;
+	background: red;
+	color: #fff;
+	border-radius: 10px;
+	font-weight:bold;
+	font-size:25px;
+	cursor:pointer;	
+}
+
+.modifica button[type="submit"]:hover
+{
+	cursor: pointer;
+	background:yellow;
+	color: #000;
+}
+
+.contatta button[type="submit"]
+{
+	position:absolute;
+	top:45%;
+	left:75%;
+	border-color:white;
+	outline:none;
+	height: 80px;
+	width:250px;
+	background: red;
+	color: #fff;
+	border-radius: 10px;
+	font-weight:bold;
+	font-size:25px;
+	cursor:pointer;	
+}
+
+.contatta button[type="submit"]:hover
+{
+	cursor: pointer;
+	background:yellow;
+	color: #000;
+}
+.cancella button[type="submit"]
+{
+	position:absolute;
+	top:60%;
+	left:75%;
+	border-color:white;
+	outline:none;
+	height: 80px;
+	width:250px;
+	background: red;
+	color: #fff;
+	border-radius: 10px;
+	font-weight:bold;
+	font-size:25px;
+	cursor:pointer;	
+}
+
+.cancella button[type="submit"]:hover
+{
+	cursor: pointer;
+	background:yellow;
+	color: #000;
+}
+
+.ind button[type="submit"]{
+	position:absolute;
+	font-size:20px;
+	border-color:black;
+	height:40px;
+	width:150px;
+	background:white;
+	text-decoration:none;
+	line-height:20px;
+	color:rgb(0,0,128);
+	top:90%;
+	left:5%;
+}
+
+.ind button[type="submit"]:hover
+{
+		color:red;	
+}
+
+.content-table {
+  border-collapse: collapse;
+  font-size: 20px;
+  min-width:600px;
+  height:300px;
+   font-weight: bold;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 3px 3px 3px 3px;
+}
+
+.content-table thead tr {
+  color:red;
+  text-align: left;
+  font-weight: bold;
+  font-size:25px;
+}
+
+
+.content-table th,
+.content-table td {
+  padding: 15px 20px ;
+}
+
+
+.content-table  th,
+.content-table tbody tr {
+  border-bottom: 1px solid black;
+}
+
+/*.content-table tbody tr:nth-of-type(even) {
+  background-color: white;
+}*/
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 1px solid ;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+ 
+}
+
+.tab{
+	position:absolute;
+	top:28%;
+	left:8%;
+}

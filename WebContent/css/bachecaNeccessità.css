@@ -1,0 +1,165 @@
+@charset "ISO-8859-1";
+body{
+/*background-image:URL("../img/mani.jpg");
+background-size:cover;*/
+}
+
+/*h2{
+	position:absolute;
+	top:0%;
+	left:0%;
+	font-size:60px;
+	color: black;
+	text-align:center;
+	margin: 25px 0;
+	background-color: red;
+	height:11%;
+	width:100%;
+	color:white;
+	padding:0px;
+}*/
+
+
+
+h1{
+	position:absolute;
+	top:12%;
+	left:8%;
+	font-family: Verdana;
+	font-weight: bold;
+	text-align:left;
+	font-size:50px;
+	/*margin: 25px 0;
+	background-color: blue;
+	height:7%;
+	width:60%;*/
+	color: black;
+	/*text-shadow: -3px 0 red, 0 5px red, 3px 0 red, 0 -3px red;*/
+}
+
+h2{
+	
+	text-align:center;
+	font-size:40px;
+	font-family: MV boli;
+	color:black;
+	
+}
+
+.crea button[type="submit"]
+{
+	position:absolute;
+	top:40%;
+	left:75%;
+	border-color:white;
+	outline:none;
+	height: 50px;
+	width:250px;
+	background: red;
+	color: #fff;
+	border-radius: 10px;
+	font-weight:bold;
+	font-size:25px;
+	cursor:pointer;	
+}
+
+.crea button[type="submit"]:hover
+{
+	cursor: pointer;
+	background: yellow;
+	color: #000;
+}
+
+.elimina button[type="submit"]
+{
+	position:absolute;
+	border-color:white;
+	top:55%;
+	left:75%;
+	height: 50px;
+	width:250px;
+	outline:none;
+	background: red;
+	color: #fff;
+	border-radius: 10px;
+	font-weight:bold;
+	font-size:25px;
+	cursor:pointer;	
+}
+
+.elimina button[type="submit"]:hover
+{
+	cursor: pointer;
+	background: yellow;
+	color: #000;
+}
+.ind button[type="submit"]{
+	position:absolute;
+	font-size:20px;
+	border-color:black;
+	height:40px;
+	width:150px;
+	background:white;
+	text-decoration:none;
+	line-height:20px;
+	color:rgb(0,0,128);
+	top:90%;
+	left:5%;
+}
+
+.ind button[type="submit"]:hover
+{
+		color:red;	
+}
+
+* {
+  font-family: sans-serif; /* Change your font family */
+}
+
+.content-table {
+  border-collapse: collapse;
+  font-size: 16px;
+  min-width:500px;
+  height:250px;
+   font-weight: bold;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 3px 3px 3px 3px;
+}
+
+.content-table thead tr {
+  color:red;
+  text-align: left;
+  font-weight: bold;
+  font-size:18px;
+}
+
+
+.content-table th,
+.content-table td {
+  padding: 15px 20px ;
+}
+
+
+.content-table  th,
+.content-table tbody tr {
+  border-bottom: 1px solid black;
+}
+
+/*.content-table tbody tr:nth-of-type(even) {
+  background-color: white;
+}*/
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 1px solid ;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+ 
+}
+
+.tab{
+	position:absolute;
+	top:28%;
+	left:8%;
+}

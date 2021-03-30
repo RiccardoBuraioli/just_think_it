@@ -1,0 +1,91 @@
+
+.logo{
+  position:absolute;
+  font-size: 35px;
+  left: 22%;
+  color:rgb(0, 0, 0);
+  text-align:center;
+}
+
+.logo{
+	text-decoration: none;
+	color:black;
+	font-size: 80px;
+	font-family: comics soon;
+	padding: 20px 0;
+	float: left;
+}
+
+.paragrafo p{
+	position:absolute;
+	top:42%;
+ 	left: 24%;
+  	text-align:center;
+	font-size: 30px;
+	color:rgb(0, 0, 0);
+	font-family: poppins;
+}
+
+.banner-text{
+	position:absolute;
+	top: 27%;
+	left: 15%;
+	color:rgb(0, 0, 0);
+	text-align:center;
+}
+
+
+.banner-text {
+	font-family:baloo;
+	margin:0;
+	font-size:40px;
+	color:rgb(0, 0, 0);
+}
+
+
+
+.reg button[type="submit"]
+{
+	position:absolute;
+	border: none;
+	outline:none;
+	height: 80px;
+	width:260px;
+	background: red;
+	color: #fff;
+	font-size: 22px;
+	border-radius: 20px;
+	top: 65%;
+	left:25%;
+	
+	
+}
+.reg button[type="submit"]:hover
+{
+	cursor: pointer;
+	background:yellow;
+	color: #000;
+}
+
+.log button[type="submit"]
+{
+	position:absolute;
+	border: none;
+	outline:none;
+	height: 80px;
+	width:260px;
+	background: red;
+	color: #fff;
+	font-size: 22px;
+	border-radius: 20px;
+	top: 65%;
+	left:55%;
+	
+	
+}
+.log button[type="submit"]:hover
+{
+	cursor: pointer;
+	background:yellow;
+	color: #000;
+}

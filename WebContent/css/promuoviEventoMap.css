@@ -1,0 +1,111 @@
+@charset "ISO-8859-1";
+
+body{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+	background: linear-gradinent(#E0EAFC,#CFDEF3);
+	height:100vh;
+}
+.header{
+	height: 60px;
+	background: red;
+	overflow: hidden;
+	border-radius: 3px 3px 0 0;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);	
+}
+
+.header h2{
+	position:absolute;
+	left:580px;
+	text-align:center;
+	color:white;
+}
+
+h4{
+	position:absolute;
+	top:7%;
+	font-size:35px;
+	left:400px;
+}
+
+.conferma button[type="submit"]
+{
+	position:absolute;
+	top:83%;
+	left:73%;
+	border-color:white;
+	outline:none;
+	height: 65px;
+	width:250px;
+	background: red;
+	color: #fff;
+	border-radius: 10px;
+	font-weight:bold;
+	font-size:25px;
+	cursor:pointer;	
+}
+
+.conferma button[type="submit"]:hover
+{
+	cursor: pointer;
+	background:yellow;
+	color: #000;
+}
+
+.ind a{
+	position:absolute;
+	font-size:25px;
+	font-weight:bold;
+	top:87%;
+	left:8%;
+	color:blue;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color:rgb(6, 255, 0);
+}
+
+
+h3{
+font-size:30px;
+}
+
+.prezzo input{
+	height:40px;
+	width:250px;
+}
+
+.nome input{
+	height:40px;
+	width:250px;
+}
+.note{
+	position: absolute;
+	left:60%;
+	top:25%;
+}
+
+.check{
+	position:absolute;
+	left:20%;
+	top: 25%;
+}
+
+.nome{
+	position: absolute;
+	left:20%;
+	top:35%;
+}
+
+.prezzo{
+	position: absolute;
+	left:20%;
+	top:55%;
+}
+textarea{
+	height: 230px;
+	width:300px;
+}

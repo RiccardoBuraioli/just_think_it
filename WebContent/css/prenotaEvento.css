@@ -1,0 +1,123 @@
+@charset "ISO-8859-1";
+
+body{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+	background: linear-gradinent(#E0EAFC,#CFDEF3);
+	height:100vh;
+}
+
+.center,.content{
+	position:absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+
+
+.content{
+	width:500px;
+	height:350px;
+	background:white;
+	border-radius: 3px;
+	box-shadow:0 2px 12px 0 rgba(0,0,0,.4);
+}
+
+.header{
+	height: 60px;
+	background: red;
+	overflow: hidden;
+	border-radius: 3px 3px 0 0;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+}
+
+.header h2{
+	color:white;
+	padding-left:30%;
+}
+ .h4{
+	position:absolute;
+	color:black;
+}
+
+h4{
+	position:absolute;
+	top:11%;
+	font-size:18px;
+	color: #1a1a1a;
+	text-align:center;
+}
+
+h6{
+	position:absolute;
+	top:23%;
+	left:14%;
+	font-size:12px;
+	color: black;
+	text-align:center;
+	
+}
+
+button{
+	position:absolute;
+	bottom:10px;
+	right:25px;
+	border: 1px solid red;
+	border-radius: 20px;
+	background: red;
+	color: #fff;
+	padding: 8px 10px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+button:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+
+}
+
+.dono input[type="text"]{
+	position: absolute;
+	height:20px;
+	width:150px;
+	left: 60%;
+	top:50%;
+}
+
+.dono p{
+	position: absolute;
+	left:10%;
+	top:45%;
+	font-size:20px;
+}
+
+.carta input[type="text"]{
+	position: absolute;
+	height:20px;
+	width:150px;
+	left: 60%;
+	top:65%;
+}
+
+.carta p{
+	position: absolute;
+	font-size:20px;
+	left:10%;
+	top:60%;
+}
+
+.ind a{
+	position:absolute;
+	font-size:10px;
+	top:85%;
+	left:10%;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #ffc107;
+}
