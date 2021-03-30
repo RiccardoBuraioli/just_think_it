@@ -282,7 +282,7 @@ public class CercaCaritas {
 		} catch (IOException e) {
 			logger.error(e.getMessage());
 		}
-		System.out.println("ciao");
+	
 
 	}
 
