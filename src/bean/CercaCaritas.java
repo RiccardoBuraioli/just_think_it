@@ -48,6 +48,8 @@ import java.util.List;
 
 public class CercaCaritas {
 
+	
+	
 	public enum MarkerType {
 		CARITAS, EVENTO, DONAZIONE, MAP
 	}
@@ -280,6 +282,7 @@ public class CercaCaritas {
 		} catch (IOException e) {
 			logger.error(e.getMessage());
 		}
+		System.out.println("ciao");
 
 	}
 
