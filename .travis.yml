@@ -1,7 +1,7 @@
 language: java
 jdk:
 - openjdk11
-script: ant build
+
 
 
 addons:
@@ -11,6 +11,5 @@ addons:
 	secure:"cd4c43a0c8d5e1ad0fbf651c78c8e149c38f3358"
 
 script:
-#mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
 - ant build
 - sonar-scanner
