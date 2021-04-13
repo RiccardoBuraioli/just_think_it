@@ -14,36 +14,24 @@
    <children>
       <TextField fx:id="cittaResNeg" layoutX="35.0" layoutY="136.0" prefHeight="26.0" prefWidth="230.0" promptText="Roma" />
     
-      <TextField fx:id="viaNeg" layoutX="35.0" layoutY="242.0" promptText="luigi settembrini" />
-      <TextField fx:id="civicoNeg" layoutX="198.0" layoutY="242.0" prefHeight="25.0" prefWidth="67.0" promptText="54" />
-      <TextField fx:id="telNeg" layoutX="59.0" layoutY="346.0" prefHeight="26.0" prefWidth="207.0" promptText="656589645" />
-      <Text layoutX="36.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Provincia" />
-      <Text layoutX="36.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Via" />
-      <Text layoutX="198.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N°" />
-      <Text layoutX="34.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+39" />
-      <Text layoutX="37.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefono" />
+      <TextField fx:id="viaNeg" layoutX="35.0" layoutY="197.0" promptText="luigi settembrini" />
+      <TextField fx:id="civicoNeg" layoutX="198.0" layoutY="197.0" prefHeight="25.0" prefWidth="67.0" promptText="54" />
+      <TextField fx:id="telNeg" layoutX="59.0" layoutY="301.0" prefHeight="26.0" prefWidth="207.0" promptText="656589645" />
+      <Text layoutX="36.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Via" />
+      <Text layoutX="198.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N°" />
+      <Text layoutX="34.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+39" />
+      <Text layoutX="37.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefono" />
       <TextField fx:id="nomeNegzio" layoutX="36.0" layoutY="82.0" prefHeight="26.0" prefWidth="230.0" promptText="es. Mario" />
-      <TextField fx:id="mailNeg" layoutX="35.0" layoutY="290.0" prefHeight="26.0" prefWidth="230.0" promptText="es. mariorossi@gmail.com" />
+      <TextField fx:id="mailNeg" layoutX="35.0" layoutY="245.0" prefHeight="26.0" prefWidth="230.0" promptText="es. mariorossi@gmail.com" />
       <Text layoutX="36.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome del Negozio" />
-      <Text layoutX="36.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
-      <Text layoutX="332.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
-      <Text layoutX="333.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conferma Password" />
+      <Text layoutX="36.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+      <Text layoutX="326.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Text layoutX="327.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conferma Password" />
       <Text layoutX="38.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Città di Residenza" />
-      <Text layoutX="35.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tipologia:" />
-      <CheckBox fx:id="typeCiboNeg" layoutX="116.0" layoutY="387.0" mnemonicParsing="false" text="Cibo" />
-      <CheckBox fx:id="typeVestNeg" layoutX="191.0" layoutY="387.0" mnemonicParsing="false" text="Vestiario" />
-      <TextField fx:id="nomeNeg" layoutX="331.0" layoutY="123.0" prefHeight="26.0" prefWidth="230.0" promptText="es. Mario" />
-      <TextField fx:id="cognomeNeg" layoutX="331.0" layoutY="172.0" prefHeight="26.0" prefWidth="230.0" promptText="es. rossi" />
-      <Text layoutX="331.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
-      <Text layoutX="331.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cognome" />
+      <Text layoutX="35.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tipologia:" />
+      <CheckBox fx:id="typeCiboNeg" layoutX="116.0" layoutY="342.0" mnemonicParsing="false" text="Cibo" />
+      <CheckBox fx:id="typeVestNeg" layoutX="191.0" layoutY="342.0" mnemonicParsing="false" text="Vestiario" />
       <Button fx:id="registraNegozio" layoutX="333.0" layoutY="376.0" mnemonicParsing="false" onAction="#registraNegozioPressed" prefHeight="37.0" prefWidth="230.0" text="Completa la registrazione" />
-      <TextField fx:id="codiceFiscNeg" layoutX="333.0" layoutY="228.0" prefHeight="26.0" prefWidth="230.0" promptText="OE......" />
-      <Text layoutX="331.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Codice Fiscale" />
-      <Text layoutX="396.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Responsabile">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Text>
       <Separator layoutX="294.0" layoutY="62.0" orientation="VERTICAL" prefHeight="354.0" prefWidth="14.0" />
       <ToolBar layoutX="1.0" prefHeight="38.0" prefWidth="600.0">
          <items>
@@ -55,8 +43,13 @@
             </Text>
          </items>
       </ToolBar>
-      <PasswordField fx:id="passwordNeg" layoutX="331.0" layoutY="278.0" prefHeight="26.0" prefWidth="230.0" />
-      <PasswordField fx:id="confermaPassNeg" layoutX="333.0" layoutY="329.0" prefHeight="26.0" prefWidth="230.0" />
+      <PasswordField fx:id="passwordNeg" layoutX="325.0" layoutY="90.0" prefHeight="26.0" prefWidth="230.0" />
+      <PasswordField fx:id="confermaPassNeg" layoutX="327.0" layoutY="141.0" prefHeight="26.0" prefWidth="230.0" />
   	 <Text fx:id="passwordMatch" fill="RED" layoutX="350.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le password non corrispondono!" visible="false" wrappingWidth="181.336669921875" />
+      <Text layoutX="327.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Il negozio ha l'opportunità di vendere tutti i suoi prodotti invenduti alle caritas che ne hanno bisogno.  Migliori saranno i prezzi che offrirai, magiori saranno gli eventi che verranno accettati." wrappingWidth="230.00000210106373">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

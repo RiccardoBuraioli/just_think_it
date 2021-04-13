@@ -43,7 +43,7 @@ public class RegistrationShopBoundary implements Initializable{
     private TextField telNeg;
 
     @FXML
-    private TextField nomeNegzio;
+    private TextField nomeNegozio;
 
     @FXML
     private TextField mailNeg;
@@ -55,17 +55,9 @@ public class RegistrationShopBoundary implements Initializable{
     private CheckBox typeVestNeg;
 
     @FXML
-    private TextField nomeNeg;
-
-    @FXML
-    private TextField cognomeNeg;
-
-    @FXML
     private Button registraNegozio;
 
-    @FXML
-    private TextField codiceFiscNeg;
-
+  
     @FXML
     private Button backButtonNeg;
 
@@ -104,7 +96,7 @@ public class RegistrationShopBoundary implements Initializable{
     		logger.debug("errore fratello");
     	}
     
-    	int idShop = regNeg.registraNegozioPressed( tipo , nomeNeg.getText(), passwordNeg.getText(), viaNeg.getText() + " "+civicoNeg.getText() , telNeg.getText(), mailNeg.getText(), cittaResNeg.getText());
+    	int idShop = regNeg.registraNegozioPressed( tipo , nomeNegozio.getText(), passwordNeg.getText(), viaNeg.getText() + " "+civicoNeg.getText() , telNeg.getText(), mailNeg.getText(), cittaResNeg.getText());
  
     	try {
     		
@@ -163,7 +155,7 @@ public class RegistrationShopBoundary implements Initializable{
    public void initialize(URL location, ResourceBundle resources) {
 		
 		passwordMatch.setVisible(false);
-		textField = new TextField[] {cittaResNeg,viaNeg,civicoNeg,telNeg,nomeNegzio,mailNeg,nomeNeg,cognomeNeg};
+		textField = new TextField[] {cittaResNeg,viaNeg,civicoNeg,telNeg,nomeNegozio,mailNeg};
 		
 
 	}

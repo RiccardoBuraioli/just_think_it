@@ -10,18 +10,17 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bean.RegistraCaritasBoundary">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bean.RegistraCaritasBoundary">
    <children>
       <TextField fx:id="cittadiResidenza" layoutX="35.0" layoutY="142.0" prefHeight="26.0" prefWidth="230.0" promptText="Roma" />
       
-      <TextField fx:id="via" layoutX="35.0" layoutY="248.0" promptText="luigi settembrini" />
-      <TextField fx:id="civico" layoutX="198.0" layoutY="248.0" prefHeight="25.0" prefWidth="67.0" promptText="54" />
-      <TextField fx:id="telefono" layoutX="68.0" layoutY="354.0" prefHeight="26.0" prefWidth="198.0" promptText="656589645" />
-      <Text layoutX="36.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Provincia" />
-      <Text layoutX="36.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Via" />
-      <Text layoutX="198.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N° Civico" />
-      <Text layoutX="39.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+39" />
-      <Text layoutX="36.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefono" />
+      <TextField fx:id="via" layoutX="35.0" layoutY="204.0" promptText="luigi settembrini" />
+      <TextField fx:id="civico" layoutX="198.0" layoutY="204.0" prefHeight="25.0" prefWidth="67.0" promptText="54" />
+      <TextField fx:id="telefono" layoutX="68.0" layoutY="310.0" prefHeight="26.0" prefWidth="198.0" promptText="656589645" />
+      <Text layoutX="36.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Via" />
+      <Text layoutX="198.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N° Civico" />
+      <Text layoutX="39.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+39" />
+      <Text layoutX="36.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefono" />
       <ToolBar prefHeight="25.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <items>
             <Button fx:id="backButton" mnemonicParsing="false" onAction="#backButtonPressed" text="Indietro" />
@@ -33,30 +32,20 @@
          </items>
       </ToolBar>
       <TextField fx:id="nomeCaritas" layoutX="36.0" layoutY="88.0" prefHeight="26.0" prefWidth="230.0" promptText="es. Mario" />
-      <TextField fx:id="email" layoutX="35.0" layoutY="296.0" prefHeight="26.0" prefWidth="230.0" promptText="es. mariorossi@gmail.com" />
+      <TextField fx:id="email" layoutX="35.0" layoutY="252.0" prefHeight="26.0" prefWidth="230.0" promptText="es. mariorossi@gmail.com" />
       <Text layoutX="36.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome della Caritas" />
-      <Text layoutX="35.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
-      <Text layoutX="345.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
-      <Text layoutX="345.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conferma Password" />
+      <Text layoutX="35.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+      <Text layoutX="334.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Text layoutX="334.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conferma Password" />
       <Text layoutX="35.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Città di Residenza" />
-      <Text layoutX="34.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tipologia:" />
-      <CheckBox fx:id="type" layoutX="131.0" layoutY="416.0" mnemonicParsing="false" text="Cibo" />
-      <CheckBox fx:id="type2" layoutX="196.0" layoutY="416.0" mnemonicParsing="false" text="Vestiario" />
+      <Text layoutX="35.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tipologia:" />
+      <CheckBox fx:id="type" layoutX="132.0" layoutY="350.0" mnemonicParsing="false" text="Cibo" />
+      <CheckBox fx:id="type2" layoutX="197.0" layoutY="350.0" mnemonicParsing="false" text="Vestiario" />
       <Separator layoutX="299.0" layoutY="82.0" orientation="VERTICAL" prefHeight="285.0" prefWidth="1.0" />
-      <TextField fx:id="nomeResp" layoutX="344.0" layoutY="129.0" prefHeight="26.0" prefWidth="230.0" promptText="es. Mario" />
-      <TextField fx:id="cognomeResp" layoutX="344.0" layoutY="178.0" prefHeight="26.0" prefWidth="230.0" promptText="es. rossi" />
-      <Text layoutX="344.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
-      <Text layoutX="344.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cognome" />
-      <Button fx:id="completaButton" layoutX="345.0" layoutY="397.0" mnemonicParsing="false" onAction="#completaButtonPressed" prefHeight="38.0" prefWidth="230.0" text="Completa la registrazione" />
-      <TextField fx:id="codiceFiscaleResp" layoutX="346.0" layoutY="234.0" prefHeight="26.0" prefWidth="230.0" promptText="OE......" />
-      <Text layoutX="344.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Codice Fiscale" />
-      <Text layoutX="409.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Responsabile">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Text>
-      <PasswordField fx:id="passwordCaritas" layoutX="346.0" layoutY="284.0" prefHeight="26.0" prefWidth="230.0" />
-      <PasswordField fx:id="confermaPassCaritas" layoutX="346.0" layoutY="336.0" prefHeight="26.0" prefWidth="230.0" />
-      <Text fx:id="passwordMatch" fill="RED" layoutX="346.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le password non corrispondono!" wrappingWidth="181.336669921875" />
+      <Button fx:id="completaButton" layoutX="335.0" layoutY="378.0" mnemonicParsing="false" onAction="#completaButtonPressed" prefHeight="38.0" prefWidth="230.0" text="Completa la registrazione" />
+      <PasswordField fx:id="passwordCaritas" layoutX="335.0" layoutY="91.0" prefHeight="26.0" prefWidth="230.0" />
+      <PasswordField fx:id="confermaPassCaritas" layoutX="335.0" layoutY="143.0" prefHeight="26.0" prefWidth="230.0" />
+      <Text fx:id="passwordMatch" fill="RED" layoutX="359.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le password non corrispondono!" wrappingWidth="181.336669921875" />
+      <Text layoutX="334.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le Caritas offrono un serivzio insostituibile, ottieni il supporto di cui hai bisogno!" wrappingWidth="230.00000417232513" />
    </children>
 </AnchorPane>

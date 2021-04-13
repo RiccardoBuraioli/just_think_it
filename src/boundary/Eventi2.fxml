@@ -27,7 +27,6 @@
       
  
       <Button fx:id="caritas" layoutX="683.0" layoutY="282.0" mnemonicParsing="false" onAction="#contattaCaritas" prefHeight="37.0" prefWidth="103.0" text="Contatta Caritas" />
-      <Button fx:id="modificaE" layoutX="683.0" layoutY="104.0" mnemonicParsing="false" onAction="#modificaEvento" prefHeight="37.0" prefWidth="103.0" text="Modifica Evento" />
       <Button fx:id="eliminaE" layoutX="683.0" layoutY="192.0" mnemonicParsing="false" onAction="#eliminaEvento" prefHeight="37.0" prefWidth="103.0" text="Elimina Evento" />
       <Button fx:id="back" layoutX="39.0" layoutY="441.0" mnemonicParsing="false" onAction="#backButtonPressed" prefHeight="37.0" prefWidth="72.0" text="Indietro" />
    </children>

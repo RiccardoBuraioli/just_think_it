@@ -59,17 +59,9 @@ public class RegistraCaritasBoundary implements Initializable {
 	@FXML
 	private CheckBox type2;
 
-	@FXML
-	private TextField nomeResp;
-
-	@FXML
-	private TextField cognomeResp;
-
+	
 	@FXML
 	private Button completaButton;
-
-	@FXML
-	private TextField codiceFiscaleResp;
 
 	@FXML
 	private PasswordField passwordCaritas;
@@ -155,8 +147,7 @@ public class RegistraCaritasBoundary implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 
 		passwordMatch.setVisible(false);
-		textFields = new TextField[] { cittadiResidenza, via, civico, telefono, nomeCaritas, email, nomeResp,
-				cognomeResp, codiceFiscaleResp };
+		textFields = new TextField[] { cittadiResidenza, via, civico, telefono, nomeCaritas, email };
 
 	}
 

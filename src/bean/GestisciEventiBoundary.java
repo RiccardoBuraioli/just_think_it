@@ -58,8 +58,6 @@ public class GestisciEventiBoundary {
 	private TableColumn<EventTab, Integer> numPartecipanti;
 	@FXML
 	private TableColumn<EventTab, Float> importo;
-	@FXML
-	private Button modificaE;
 
 	@FXML
 	private Button eliminaE;
@@ -94,7 +92,7 @@ public class GestisciEventiBoundary {
 			Parent rootNode = fxmlLoader.load(getClass().getResourceAsStream("/boundary/Email.fxml"));
 
 			EmailBoundary email = fxmlLoader.getController(); 
-			email.loadEmail(this.idShop, this.idCaritas);
+			email.loadEmail( this.idCaritas,this.idShop);
 			Stage stage = new Stage();
 			stage.setTitle("Email");
 
@@ -113,15 +111,11 @@ public class GestisciEventiBoundary {
 		return gestEventC.eliminaEvento(this.event.getNomeEvento());
 	}
 
-	@FXML
-	void modificaEvento(ActionEvent event) {
-		// non si sa se è da fare o no
-
-	}
 
 	@FXML
 	void prendiEvento(MouseEvent e) {
 		this.event = table.getSelectionModel().getSelectedItem();
+		this.idCaritas = event.getIdCaritas();
 
 	}
 
